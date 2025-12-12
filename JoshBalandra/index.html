@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Josh A. Balandra — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Josh A. Balandra</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact / Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h2>Hello  I’m Josh.</h2>
+        <p class="bio">A music-loving soul who finds joy in every beat and melody. I’m passionate about creating, listening, and sharing music.</p>
+        <p>I’m a student learning web development and Trumpet playing. I enjoy playing the trumpet, learning new programming language, and building small web projects to showcase my work.</p>
+        <div class="cta-row">
+          <a href="projects.html" class="btn">See Projects</a>
+          <a href="contact.html" class="btn ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <img src="profile.jpg" alt="Josh A. Balandra profile photo" class="profile-photo">
+      </aside>
+    </section>
+
+    <section class="skills container">
+      <h3>Skills & Interests</h3>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>Basic JavaScript</li>
+        <li>Plays Trumpet</li>
+        <li>Basic Phython</li>
+        <li>Creative problem solving</li>
+      </ul>
+    </section>
+
+    <section class="about container">
+      <h3>Short Story</h3>
+      <p>I spend free time learning different trumpet scales and blowing techniques, and trying out small web projects. I like to combine creativity with technical skills — whether it's making music or polishing a website layout.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Josh A. Balandra — Built with HTML + CSS</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

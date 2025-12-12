@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Josh A. Balandra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Josh A. Balandra</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact / Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container projects-hero">
+      <h2>My Projects</h2>
+      <p>Here are a few sample projects I worked on.</p>
+    </section>
+
+    <section class="container projects-grid">
+      <article class="project-card">
+        <img src="project1.jpg" alt="Project 1 preview">
+        <div class="project-body">
+          <h4>3D Dice</h4>
+          <p></p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="project2.jpg" alt="Project 2 preview">
+        <div class="project-body">
+          <h4>Final Project</h4>
+          <p></p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <img src="project3.jpg" alt="Project 3 preview">
+        <div class="project-body">
+          <h4>Life Map</h4>
+          <p></p>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <img src="project4.jpg" alt="Project 2 preview">
+        <div class="project-body">
+          <h4>Digital Slogan</h4>
+          <p></p>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <img src="project5.jpg" alt="Project 5 preview">
+        <div class="project-body">
+          <h4>Personal Website (this webpage)</h4>
+          <p>A clean, responsive portfolio made with semantic HTML and external CSS.</p>
+        </div>
+      </article>
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> Josh A. Balandra</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year2').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
